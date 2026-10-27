@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+*.local
+*.pem
+*.key
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Application Cache & Logs
+~/.edith_cache/
+*.log
+.edith_audit.log
+.edith_memory.json
+
+# Scratch & temporary testing files
+scratch/
+tmp/
+
+# Local test outputs & personal chat history
+MyApp/
+data/chat_history.json
